@@ -1,8 +1,7 @@
-#import os
-#import pandas as pd
-#import cv2
-#import numpy as np
-#from PIL import Image
+'''
+      Manipulación de GTSRB y GTSDB para ponerle en formato de YOLOv5
+'''
+
 from gtbd2list import read_gtsrb, read_gtsdb, visualize_images_gtsrb, visualize_images_with_annotations
 from list2YoloDB import create_yolo_dataset, convert_gtsrb_to_yolo, convert_gtsdb_to_yolo
 
